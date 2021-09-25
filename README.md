@@ -8,12 +8,57 @@ Ridho Ajiraga Jagiswara 05111940000170
 David Ralphwaldo Martuaraja 05111940000190
 
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
+a.	Masukkan http.host == "ichimarumaru.tech" pada display filter.
+
+![image](https://user-images.githubusercontent.com/75240358/134775573-966e51c6-1661-49bf-a10b-7b15d04efd2d.png)
+
+b.	Buka ichimarumaru.tech pada browser
+
+c.	Webserver ichimarumaru.tech adalah nginx/1.18.0 (Ubuntu)
+
+![image](https://user-images.githubusercontent.com/75240358/134775578-f77af342-dd89-4714-b644-94f8850fe019.png)
 
 ### 2. Temukan paket dari web-web yang menggunakan basic authentication method!
+Ketik “http.authbasic” pada display filter dan tekan enter
+
+![image](https://user-images.githubusercontent.com/75240358/134775594-ea8d9c60-8d69-4b1f-9ca6-793fe262c6f7.png)
 
 ### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!  
 
+a.	Ketik “http.authbasic” pada display filter dan tekan enter
+
+b.	Cari username dan password pada file .pcapng
+
+![image](https://user-images.githubusercontent.com/75240358/134775608-dd2399e2-f355-432e-a1c8-d02885f5afb6.png)
+
+c.	Masukkan username dan passwor yang didapatkan
+
+![image](https://user-images.githubusercontent.com/75240358/134775657-e2f73b03-dc25-4ea2-a37c-278ae59f7d33.png)
+
+d.	Kerjakan Soal pada basic.ichimarumaru.tech
+
+![image](https://user-images.githubusercontent.com/75240358/134775667-282c65b8-9ce1-4c38-9b1e-a6f717202394.png)
+
+### 4. Temukan paket mysql yang mengandung perintah query select!
+Masukkan pencarian “tcp contains select” pada filter
+Masukkan pencarian “tcp contains select” pada filter
+
+![image](https://user-images.githubusercontent.com/75240358/134775712-02bffcef-9325-442a-99e0-fb1787b35be1.png)
+
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap
+a.	Masukkan pencarian “tcp contains users” pada filter untuk mencari mana yang mengandung tabel users, lalu cari usernama dan passwordnya
+
+![image](https://user-images.githubusercontent.com/75240358/134775741-bd728d0b-5890-4b95-82d6-c35776e415db.png)
+
+b.	Dapat terlihat bahwa:
+Username: akakanomi
+Password: pemisah4lautan
+
+![image](https://user-images.githubusercontent.com/75240358/134775744-130720d4-c6d2-4d75-ad59-89cab3377f8b.png)
+
+c.	Kerjakan soal
+
+![image](https://user-images.githubusercontent.com/75240358/134775751-0950c3d6-c8ee-4d23-aab3-192a7c8da98a.png)
 
 ### 6.   Mencari username dan password ketika melakukan login ke FTP Server
 Untuk mendapatkan username dan password digunakan `ftp.request.command == USER || ftp.request.command == PASS` pada display picture
