@@ -43,12 +43,12 @@ d.	Kerjakan Soal pada basic.ichimarumaru.tech
 Masukkan pencarian “tcp contains select” pada filter
 Masukkan pencarian “tcp contains select” pada filter
 
-![image](https://user-images.githubusercontent.com/75240358/134775712-02bffcef-9325-442a-99e0-fb1787b35be1.png)
+![image](https://user-images.githubusercontent.com/91381311/134775802-ff6139ca-9219-43b1-840b-4bf1ac27e263.png)
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap
 a.	Masukkan pencarian “tcp contains users” pada filter untuk mencari mana yang mengandung tabel users, lalu cari usernama dan passwordnya
 
-![image](https://user-images.githubusercontent.com/75240358/134775741-bd728d0b-5890-4b95-82d6-c35776e415db.png)
+![image](https://user-images.githubusercontent.com/91381311/134775816-9ff34a32-6126-486a-9d1e-779ee01a7ac7.png)
 
 b.	Dapat terlihat bahwa:
 Username: akakanomi
