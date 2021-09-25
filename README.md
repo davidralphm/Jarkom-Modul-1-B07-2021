@@ -99,11 +99,11 @@ b. Kemudian kami mencoba membuka website http://www.columbia.edu/~fdc/sample.htm
 
 a. Masukkan ```port 21``` pada input capture filter. Di sini saya menggunakan adapter loopback untuk melakukan capture paketnya.
 
-![12a]()
+![12a](https://user-images.githubusercontent.com/74144561/134760817-61cc71ec-bf4f-4ee1-8119-da6b8b3b24f1.png)
 
 b. Di sini saya mencoba untuk capture paket dari FileZilla client saya. Berikut hasilnya.
 
-![12b]()
+![12b](https://user-images.githubusercontent.com/74144561/134760826-dceb24a0-c6aa-4445-8693-df7fa1442dbd.png)
 
 ### 13. Filter sehingga wireshark hanya mengambil paket yang menuju port 443!
 
