@@ -113,4 +113,6 @@ b. Kemudian kami membuka website kemenag.go.id pada browser. Berikut hasilnya.
 
 a. Karena alamat IP saya adalah 192.168.1.205, saya memasukkan ```src net 192.168.1.205``` pada input capture filter WireShark.
 
+![15a](https://user-images.githubusercontent.com/74144561/134760458-fdac84ee-d65a-4cc0-9ae0-0ca782908539.png)
+
 b. Berikut hasilnya.
