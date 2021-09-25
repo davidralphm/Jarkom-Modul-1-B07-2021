@@ -89,11 +89,11 @@ f. Buka file Wanted.pdf dengan menggunakan password tersebut. Berikut hasilnya.
 
 a. Masukkan ```src port 80``` pada input capture filter.
 
-![11a](https://user-images.githubusercontent.com/74144561/134760732-38be69c9-58f0-4994-a42b-9d27507b1876.png)
+![11a](https://user-images.githubusercontent.com/74144561/134760943-d29f90d4-a1ae-467b-a035-3dc32ce7d54b.png)
 
 b. Kemudian kami mencoba membuka website http://www.columbia.edu/~fdc/sample.html. Berikut hasilnya.
 
-![11b](https://user-images.githubusercontent.com/74144561/134760738-9ddf46e1-490c-44a0-8a90-61d1397b7fcb.png)
+![11b](https://user-images.githubusercontent.com/74144561/134760947-30aa0add-1d07-40f6-8115-780109cb7254.png)
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
@@ -109,28 +109,28 @@ b. Di sini saya mencoba untuk capture paket dari FileZilla client saya. Berikut 
 
 a. Masukkan ```dst port 443``` pada input capture filter.
 
-![13a](https://user-images.githubusercontent.com/74144561/134760675-97383b32-ba7a-4dc3-ad90-cb27988c5f69.png)
+![13a](https://user-images.githubusercontent.com/74144561/134760990-8d69afe2-892d-48d3-9d82-625678b64317.png)
 
 b. Di sini kami mencoba untuk membuka website kemenag.go.id. Berikut hasilnya.
 
-![13b](https://user-images.githubusercontent.com/74144561/134760683-a36917cd-a0b0-4462-b90e-c8450f592845.png)
+![13b](https://user-images.githubusercontent.com/74144561/134760996-493a37ef-4972-41e8-a984-f506b53e66d0.png)
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 a. Masukkan ```dst host kemenag.go.id``` pada input capture filter.
 
-![14a](https://user-images.githubusercontent.com/74144561/134760628-d43df5b4-c02b-45b3-bfad-c273f55e2199.png)
+![14a](https://user-images.githubusercontent.com/74144561/134761007-791cdb9e-42f3-4ef7-a3a9-804b2563e411.png)
 
 b. Kemudian kami membuka website kemenag.go.id pada browser. Berikut hasilnya.
 
-![14b](https://user-images.githubusercontent.com/74144561/134760642-9215f42e-4e33-4447-b21a-6c325b43cc20.png)
+![14b](https://user-images.githubusercontent.com/74144561/134761010-f78c7a17-f447-421c-949f-af21880e6c67.png)
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 a. Karena alamat IP saya adalah 192.168.1.205, saya memasukkan ```src net 192.168.1.205``` pada input capture filter WireShark.
 
-![15a](https://user-images.githubusercontent.com/74144561/134760458-fdac84ee-d65a-4cc0-9ae0-0ca782908539.png)
+![15a](https://user-images.githubusercontent.com/74144561/134761029-6b1fd695-f18b-445a-9ea2-dd147ee65a93.png)
 
 b. Berikut hasilnya.
 
-![15b](https://user-images.githubusercontent.com/74144561/134760574-8cf7386a-bdac-4e8d-9241-906211008d8c.png)
+![15b](https://user-images.githubusercontent.com/74144561/134761026-59686da4-2c94-47db-ae41-db5c704bb3b5.png)
