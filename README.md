@@ -2,7 +2,9 @@
 ## Anggota Kelompok B07 ##
 
 Salman Damai Alfariq 05111940000159
+
 Ridho Ajiraga Jagiswara 05111940000170
+
 David Ralphwaldo Martuaraja 05111940000190
 
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
@@ -83,12 +85,32 @@ f. Buka file Wanted.pdf dengan menggunakan password tersebut. Berikut hasilnya.
 
 ![image](https://user-images.githubusercontent.com/75240358/134756555-cbdfb810-345d-4ea3-90e3-bb105290e440.png)
 
-### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!   
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
-### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21! 
+a. Masukkan ```src port 80``` pada input capture filter.
 
-### 13. Filter sehingga wireshark hanya mengambil paket yang menuju port 443!  
+b. Kemudian kami mencoba membuka website http://www.columbia.edu/~fdc/sample.html. Berikut hasilnya.
+
+### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+a. Masukkan ```port 21``` pada input capture filter. Di sini saya menggunakan adapter loopback untuk melakukan capture paketnya.
+
+b. Di sini saya mencoba untuk capture paket dari FileZilla client saya. Berikut hasilnya.
+
+### 13. Filter sehingga wireshark hanya mengambil paket yang menuju port 443!
+
+a. Masukkan ```dst port 443``` pada input capture filter.
+
+b. Di sini kami mencoba untuk membuka website kemenag.go.id. Berikut hasilnya.
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
+a. Masukkan ```dst host kemenag.go.id``` pada input capture filter.
+
+b. Kemudian kami membuka website kemenag.go.id pada browser. Berikut hasilnya.
+
 ### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+a. Karena alamat IP saya adalah 192.168.1.205, saya memasukkan ```src net 192.168.1.205``` pada input capture filter WireShark.
+
+b. Berikut hasilnya.
