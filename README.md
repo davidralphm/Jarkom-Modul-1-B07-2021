@@ -93,7 +93,7 @@ a. Masukkan ```src port 80``` pada input capture filter.
 
 b. Kemudian kami mencoba membuka website http://www.columbia.edu/~fdc/sample.html. Berikut hasilnya.
 
-![11b](https://user-images.githubusercontent.com/74144561/134760947-30aa0add-1d07-40f6-8115-780109cb7254.png)
+![11b](https://user-images.githubusercontent.com/74144561/134761055-927f808c-08b4-4650-ae71-7f82dda6b90e.png)
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
