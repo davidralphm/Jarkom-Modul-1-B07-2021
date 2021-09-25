@@ -89,25 +89,41 @@ f. Buka file Wanted.pdf dengan menggunakan password tersebut. Berikut hasilnya.
 
 a. Masukkan ```src port 80``` pada input capture filter.
 
+![11a](https://user-images.githubusercontent.com/74144561/134760732-38be69c9-58f0-4994-a42b-9d27507b1876.png)
+
 b. Kemudian kami mencoba membuka website http://www.columbia.edu/~fdc/sample.html. Berikut hasilnya.
+
+![11b](https://user-images.githubusercontent.com/74144561/134760738-9ddf46e1-490c-44a0-8a90-61d1397b7fcb.png)
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 a. Masukkan ```port 21``` pada input capture filter. Di sini saya menggunakan adapter loopback untuk melakukan capture paketnya.
 
+![12a]()
+
 b. Di sini saya mencoba untuk capture paket dari FileZilla client saya. Berikut hasilnya.
+
+![12b]()
 
 ### 13. Filter sehingga wireshark hanya mengambil paket yang menuju port 443!
 
 a. Masukkan ```dst port 443``` pada input capture filter.
 
+![13a](https://user-images.githubusercontent.com/74144561/134760675-97383b32-ba7a-4dc3-ad90-cb27988c5f69.png)
+
 b. Di sini kami mencoba untuk membuka website kemenag.go.id. Berikut hasilnya.
+
+![13b](https://user-images.githubusercontent.com/74144561/134760683-a36917cd-a0b0-4462-b90e-c8450f592845.png)
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 a. Masukkan ```dst host kemenag.go.id``` pada input capture filter.
 
+![14a](https://user-images.githubusercontent.com/74144561/134760628-d43df5b4-c02b-45b3-bfad-c273f55e2199.png)
+
 b. Kemudian kami membuka website kemenag.go.id pada browser. Berikut hasilnya.
+
+![14b](https://user-images.githubusercontent.com/74144561/134760642-9215f42e-4e33-4447-b21a-6c325b43cc20.png)
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
